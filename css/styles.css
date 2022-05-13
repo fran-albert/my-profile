@@ -1,0 +1,95 @@
+* {
+  font-family: "Fredoka", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.nav-bg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.nav-izquierda {
+  margin: 1rem;
+}
+
+.nav-izquierda a {
+  margin: 1rem;
+}
+
+.nav-derecha {
+  margin: 1rem;
+}
+
+.nav-derecha a {
+  margin: 1rem;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  color: #205375;
+  
+}
+
+.nav-derecha a:hover {
+  color: #f66b0e;
+}
+
+.logo a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: none;
+}
+.botones {
+  display: flex;
+  justify-content: space-evenly;
+}
+.botones a {
+  background-color: rgb(196, 196, 196);
+  padding: 0.5rem 8rem;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #b60000;
+  color: #205375;
+  text-decoration: none;
+  font-weight: 600;
+}
+.botones a:hover {
+    color: #f66b0e;
+}
+h3 {
+  padding: 1rem;
+}
+.principio {
+  display: flex;
+  align-items: center;
+}
+.principio p {
+  color: black;
+  font-weight: 600;
+}
+.card h5 {
+  font-weight: 700;
+  text-align: center;
+}
+.card-body a {
+  /* background-color: rgb(196, 196, 196);
+  padding: 0.5rem 2rem;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #b60000; */
+  color: #205375;
+  text-decoration: none;
+  font-weight: 700;
+}
+.card-body a:hover {
+  color: #f66b0e;
+}
+.flecha img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px; }
